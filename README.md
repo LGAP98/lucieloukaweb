@@ -28,13 +28,13 @@ python3 -m http.server 8000
 
 Placeholders are in `[square brackets]` and have a dashed teal outline (class `todo`), so nothing unfinished goes live by accident. Remove the `todo` class once the real text is in.
 
-- Main headline (the brand line is used for now) and section names. The brief lists both as open.
-- Short intro, About text, portrait photo (`assets/lucie.jpg`, 4:5)
-- Projects, technologies, links to CV, GitHub and LinkedIn
-- Teaching, political priorities, volunteering
-- Contact email and social links
-- Party materials (the brief says these will be handled later)
+- Portrait photo (`assets/lucie.jpg`, 4:5)
+- Music: band or uni project name and link
+- Years of experience, main technologies, more projects, your part in the SummerJob system
+- Full name of the course TDP2
+- Other volunteering
+- Newsletter: connect the form to a provider and link a privacy policy
 
 ## Publishing on GitHub Pages
 
-Go to Settings → Pages → Deploy from a branch → `main` / root.
+Go to Settings → Pages → Deploy from a branch → `main` / root. The `CNAME` file sets the custom domain `lucielouka.cz`. You also need to point the domain's DNS at GitHub Pages: see GitHub's guide [Managing a custom domain for your GitHub Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).

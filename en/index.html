@@ -4,14 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lucie Louka</title>
-  <!-- TODO: update once the home page copy is final -->
-  <meta name="description" content="Lucie Louka – software engineer, teacher and civic volunteer. Let's care about what's around us.">
+  <meta name="description" content="Lucie Louka – software engineer at Ataccama, teaching assistant at FIT CTU and CEO of the SummerJob volunteer project.">
+  <link rel="canonical" href="https://lucielouka.cz/en/">
+  <meta property="og:url" content="https://lucielouka.cz/en/">
   <meta property="og:title" content="Lucie Louka">
-  <meta property="og:description" content="Let's care about what's around us.">
+  <meta property="og:description" content="Software engineer connecting tech, public life and volunteering.">
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#fef84c">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <link rel="alternate" hreflang="cs" href="../">
+  <link rel="alternate" hreflang="cs" href="https://lucielouka.cz/">
+  <link rel="alternate" hreflang="en" href="https://lucielouka.cz/en/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&family=Rubik:wght@900&display=swap" rel="stylesheet">
@@ -24,10 +26,9 @@
     <div class="wrap">
       <a class="brand" href="#" aria-label="Lucie Louka – home"><img src="../assets/logo.svg" alt="Lucie Louka"></a>
       <nav class="nav" aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#software">Software</a>
+        <a href="#engineering">Engineering</a>
         <a href="#teaching">Teaching</a>
-        <a href="#civic">Public life</a>
+        <a href="#organising">Organising</a>
         <a href="#contact">Contact</a>
         <a class="lang" href="../" hreflang="cs" lang="cs">CZ</a>
       </nav>
@@ -35,17 +36,15 @@
   </header>
 
   <main id="content">
-    <!-- HERO -->
     <section class="hero" aria-labelledby="hero-title">
       <div class="wrap">
         <div>
           <img class="hero-logo" src="../assets/logo.svg" alt="" aria-hidden="true">
-          <!-- Main headline is still open in the brief – the brand line is used here. -->
-          <h1 id="hero-title">Let's care about what's <span class="mark">around us</span></h1>
-          <p class="lead todo">[To add: 1–2 sentences on who I am, e.g. software engineer, teacher and someone who connects people, systems and public life.]</p>
+          <h1 id="hero-title">Software engineer who <span class="mark">connects</span> things</h1>
+          <p class="lead">Prague-based engineer at Ataccama, teaching assistant at FIT CTU and CEO of the SummerJob volunteer project. I connect technology with public life and volunteering.</p>
           <div class="actions">
-            <a class="btn" href="#civic">Public life</a>
-            <a class="btn alt" href="#software">Software</a>
+            <a class="btn" href="#contact">Get in touch</a>
+            <a class="btn alt" href="https://github.com/LGAP98">GitHub</a>
           </div>
         </div>
         <div class="portrait">
@@ -55,138 +54,63 @@
       </div>
     </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="on-white" aria-labelledby="about-title">
-      <div class="wrap two-col">
-        <div>
-          <span class="kicker">About</span>
-          <h2 id="about-title">I connect things</h2>
-        </div>
-        <div class="intro">
-          <p class="todo">[To add: short story – where I come from, what I do, why I like connecting people, systems and public life.]</p>
-          <p class="todo">[To add: Czech and Slovak roots, volunteering, community.]</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- SOFTWARE -->
-    <section id="software" class="on-yellow" aria-labelledby="software-title">
+    <section id="engineering" class="on-white" aria-labelledby="engineering-title">
       <div class="wrap">
         <span class="kicker">Software engineering</span>
-        <h2 id="software-title">Code that serves people</h2>
-        <p class="intro todo">[To add: what I work on as an engineer – field, role, years of experience.]</p>
-
+        <h2 id="engineering-title">Engineering</h2>
+        <p class="intro">I'm a software engineer at <a href="https://www.ataccama.com">Ataccama</a>, working on SQL parsing and processing for data lineage. <span class="todo">[To add: years of experience]</span></p>
         <ul class="tags todo" aria-label="Technologies">
           <li>[Technology 1]</li><li>[Technology 2]</li><li>[Technology 3]</li><li>[Technology 4]</li>
         </ul>
-
         <div class="cards">
           <article class="card">
-            <h3>[Project name]</h3>
-            <p class="meta todo">[Year · role · tech]</p>
-            <p class="todo">[To add: what problem it solves and what my part was.]</p>
-            <a class="more" href="#">More about the project →</a>
+            <h3>SummerJob system</h3>
+            <p class="meta">TypeScript</p>
+            <p>Web app and system for organising SummerJob. <span class="todo">[To add: my part]</span></p>
+            <a class="more" href="https://github.com/LGAP98/summerjob">Code on GitHub →</a>
           </article>
-          <article class="card">
-            <h3>[Project name]</h3>
-            <p class="meta todo">[Year · role · tech]</p>
-            <p class="todo">[To add: what problem it solves and what my part was.]</p>
-            <a class="more" href="#">More about the project →</a>
-          </article>
-          <article class="card">
-            <h3>[Project name]</h3>
-            <p class="meta todo">[Year · role · tech]</p>
-            <p class="todo">[To add: what problem it solves and what my part was.]</p>
-            <a class="more" href="#">More about the project →</a>
-          </article>
-        </div>
-
-        <div class="actions">
-          <!-- Add links -->
-          <a class="btn" href="#">CV (PDF)</a>
-          <a class="btn alt" href="#">GitHub</a>
-          <a class="btn alt" href="#">LinkedIn</a>
         </div>
       </div>
     </section>
 
-    <!-- TEACHING -->
-    <section id="teaching" class="on-white" aria-labelledby="teaching-title">
+    <section id="teaching" class="on-yellow" aria-labelledby="teaching-title">
       <div class="wrap two-col">
         <div>
           <span class="kicker">Teaching</span>
-          <h2 id="teaching-title">Teaching it forward</h2>
-          <p class="todo">[To add: what, where and whom I teach.]</p>
+          <h2 id="teaching-title">Teaching</h2>
+          <p>I lead tutorials at the Faculty of Information Technology, Czech Technical University in Prague.</p>
         </div>
         <ul class="list-plain">
-          <li><strong>[Course / workshop]</strong> <span class="todo">[Where · when · for whom]</span></li>
-          <li><strong>[Course / workshop]</strong> <span class="todo">[Where · when · for whom]</span></li>
-          <li><strong>[Talk]</strong> <span class="todo">[Where · when · recording link]</span></li>
+          <li><strong>TDP2</strong> <span class="todo">[To add: full course name]</span></li>
+          <li><strong>Automata and Grammars (BI-AAG)</strong> previously</li>
+          <li><strong>Database Systems (BI-DBS)</strong> previously</li>
         </ul>
       </div>
     </section>
 
-    <!-- PUBLIC LIFE -->
-    <section id="civic" class="on-yellow" aria-labelledby="civic-title">
-      <div class="wrap">
-        <span class="kicker">Public life</span>
-        <h2 id="civic-title">What I stand for</h2>
-        <!-- Party materials: to be dealt with later per the brief. -->
-        <p class="intro todo">[To add: where I am running / what I am involved in and why.]</p>
-
-        <div class="cards">
-          <article class="card">
-            <h3>[Priority 1]</h3>
-            <p class="todo">[To add: short, concrete, human.]</p>
-          </article>
-          <article class="card">
-            <h3>[Priority 2]</h3>
-            <p class="todo">[To add: short, concrete, human.]</p>
-          </article>
-          <article class="card">
-            <h3>[Priority 3]</h3>
-            <p class="todo">[To add: short, concrete, human.]</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="on-white" aria-labelledby="volunteer-title">
+    <section id="organising" class="on-white" aria-labelledby="organising-title">
       <div class="wrap two-col">
         <div>
-          <span class="kicker">Volunteering</span>
-          <h2 id="volunteer-title">What I already do</h2>
+          <span class="kicker">Leadership</span>
+          <h2 id="organising-title">Organising</h2>
         </div>
-        <ul class="list-plain">
-          <li><strong>[Organisation / initiative]</strong> <span class="todo">[Role · since · what we achieved]</span></li>
-          <li><strong>[Organisation / initiative]</strong> <span class="todo">[Role · since · what we achieved]</span></li>
-          <li><strong>[Organisation / initiative]</strong> <span class="todo">[Role · since · what we achieved]</span></li>
-        </ul>
+        <div class="intro">
+          <p><strong>CEO of SummerJob</strong>, a volunteer project where young people help residents of Czech border villages with work they can't manage alone. <a href="https://summerjob.eu">summerjob.eu</a></p>
+          <p>I'm also active in public life with KDU-ČSL, focusing on AI policy, women's issues and resilience. <a href="../" hreflang="cs" lang="cs">More in Czech →</a></p>
+        </div>
       </div>
     </section>
 
-    <!-- BRAND LINE -->
-    <section class="on-wine motto" aria-label="Brand line">
-      <div class="wrap">
-        <h2>Let's care about<br>what's around us</h2>
-        <p lang="cs">Starejme se o to, co je kolem nás.</p>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
     <section id="contact" class="on-yellow" aria-labelledby="contact-title">
       <div class="wrap two-col">
         <div>
           <span class="kicker">Contact</span>
           <h2 id="contact-title">Get in touch</h2>
-          <p>Whether you're a neighbour, looking for an engineer, or want to help – write to me.</p>
         </div>
         <ul class="contact-links">
-          <!-- Add real addresses -->
-          <li><a class="todo" href="mailto:">[email]</a></li>
-          <li><a class="todo" href="#">[Facebook]</a></li>
-          <li><a class="todo" href="#">[Instagram]</a></li>
-          <li><a class="todo" href="#">[LinkedIn]</a></li>
+          <li><a href="mailto:mail@lucielouka.cz">mail@lucielouka.cz</a></li>
+          <li><a href="https://www.linkedin.com/in/lucieaprochazkova/">LinkedIn</a></li>
+          <li><a href="https://github.com/LGAP98">GitHub</a></li>
         </ul>
       </div>
     </section>
