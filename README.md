@@ -24,12 +24,6 @@ python3 -m http.server 8000
 - Headlines use Rubik Black in capitals with a line height of at least 1.05 (1.1 is used). Body text uses Albert Sans. Both fonts load from Google Fonts.
 - The hand-made device is offset colour blocks: shifted shadows and slightly tilted blocks.
 
-## Still to fill in
-
-Placeholders are in `[square brackets]` and have a dashed teal outline (class `todo`), so nothing unfinished goes live by accident. Remove the `todo` class once the real text is in.
-
-- Portrait photo (`assets/lucie.jpg`, 4:5)
-
 ## Publishing on GitHub Pages
 
 Go to Settings → Pages → Deploy from a branch → `main` / root. The `CNAME` file sets the custom domain `lucielouka.cz`. You also need to point the domain's DNS at GitHub Pages: see GitHub's guide [Managing a custom domain for your GitHub Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
