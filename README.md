@@ -30,7 +30,6 @@ Placeholders are in `[square brackets]` and have a dashed teal outline (class `t
 
 - Portrait photo (`assets/lucie.jpg`, 4:5)
 - Your part in the SummerJob system
-- Substack address for the newsletter button
 
 ## Publishing on GitHub Pages
 
