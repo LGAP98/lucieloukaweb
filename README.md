@@ -29,11 +29,8 @@ python3 -m http.server 8000
 Placeholders are in `[square brackets]` and have a dashed teal outline (class `todo`), so nothing unfinished goes live by accident. Remove the `todo` class once the real text is in.
 
 - Portrait photo (`assets/lucie.jpg`, 4:5)
-- Music: band or uni project name and link
-- Years of experience, main technologies, more projects, your part in the SummerJob system
-- Full name of the course TDP2
-- Other volunteering
-- Newsletter: connect the form to a provider and link a privacy policy
+- Your part in the SummerJob system
+- Substack address for the newsletter button
 
 ## Publishing on GitHub Pages
 
