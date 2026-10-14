@@ -3,8 +3,8 @@
   --yellow: #fef84c; /* main background, party yellow */
   --black: #000000;  /* logo and text */
   --white: #ffffff;  /* clean background */
-  --green: #03390c;  /* personal accent, buttons */
-  --wine: #7d1538;   /* small accent, links */
+  --green: #03390c;  /* small accent, links */
+  --wine: #7d1538;   /* personal accent, buttons */
 
   --font-head: "Rubik", system-ui, sans-serif;
   --font-body: "Albert Sans", system-ui, sans-serif;
@@ -51,8 +51,8 @@ h3 { font-size: clamp(1.15rem, 2vw, 1.4rem); }
 
 p { margin: 0 0 1em; }
 
-a { color: var(--wine); text-underline-offset: 3px; text-decoration-thickness: 2px; }
-a:hover { color: var(--green); }
+a { color: var(--green); text-underline-offset: 3px; text-decoration-thickness: 2px; }
+a:hover { color: var(--wine); }
 :focus-visible { outline: 3px solid var(--black); outline-offset: 3px; }
 
 .wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
@@ -80,7 +80,7 @@ a:hover { color: var(--green); }
   font-family: var(--font-head); font-weight: 900; text-transform: uppercase;
   font-size: 0.9rem; letter-spacing: 0.03em;
 }
-.nav a:hover { color: var(--green); }
+.nav a:hover { color: var(--wine); }
 .nav .lang {
   border: 2px solid var(--black); padding: 2px 8px; border-radius: 4px;
 }
@@ -107,7 +107,7 @@ a:hover { color: var(--green); }
 /* Offset color block behind a headline word */
 .mark {
   display: inline-block;
-  background: var(--green); color: var(--white);
+  background: var(--wine); color: var(--white);
   padding: 0 0.18em; margin: 0.06em 0;
   transform: rotate(-1.5deg);
   box-shadow: var(--offset) var(--offset) 0 var(--black);
@@ -118,7 +118,7 @@ a:hover { color: var(--green); }
 }
 .portrait::before {
   content: ""; position: absolute; inset: 0;
-  background: var(--green);
+  background: var(--wine);
   transform: translate(16px, 16px) rotate(2deg);
 }
 .portrait > * {
@@ -137,7 +137,7 @@ a:hover { color: var(--green); }
   font-family: var(--font-head); font-weight: 900; text-transform: uppercase;
   letter-spacing: 0.03em; line-height: 1.1;
   padding: 14px 22px; border: 3px solid var(--black);
-  background: var(--green); color: var(--white);
+  background: var(--wine); color: var(--white);
   box-shadow: 5px 5px 0 var(--black);
   transition: transform 0.12s ease, box-shadow 0.12s ease;
 }
@@ -150,8 +150,8 @@ a:hover { color: var(--green); }
 section { padding: clamp(56px, 9vw, 112px) 0; overflow-x: clip; }
 section.on-yellow { background: var(--yellow); }
 section.on-white { background: var(--white); }
-section.on-green { background: var(--green); color: var(--white); }
-section.on-green a { color: var(--white); }
+section.on-wine { background: var(--wine); color: var(--white); }
+section.on-wine a { color: var(--white); }
 section + section { border-top: 3px solid var(--black); }
 
 .kicker {
@@ -173,7 +173,7 @@ section + section { border-top: 3px solid var(--black); }
 }
 .card {
   background: var(--white); border: 3px solid var(--black);
-  padding: 24px; box-shadow: var(--offset) var(--offset) 0 var(--green);
+  padding: 24px; box-shadow: var(--offset) var(--offset) 0 var(--wine);
   display: flex; flex-direction: column;
 }
 .on-white .card { box-shadow: var(--offset) var(--offset) 0 var(--yellow), var(--offset) var(--offset) 0 3px var(--black); }
@@ -205,8 +205,8 @@ section + section { border-top: 3px solid var(--black); }
   flex: 1 1 240px; min-width: 0; font: inherit; padding: 12px 14px;
   border: 3px solid var(--black); background: var(--white); color: var(--black);
 }
-.on-green .btn { background: var(--yellow); color: var(--black); }
-.on-green .btn:hover { color: var(--black); }
+.on-wine .btn { background: var(--yellow); color: var(--black); }
+.on-wine .btn:hover { color: var(--black); }
 .small { font-size: 0.95rem; }
 
 /* ---------- Contact / footer ---------- */
@@ -217,7 +217,7 @@ section + section { border-top: 3px solid var(--black); }
   box-shadow: 5px 5px 0 var(--black);
   transition: transform 0.12s ease, box-shadow 0.12s ease;
 }
-.contact-links a:hover { background: var(--green); color: var(--white); transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--black); }
+.contact-links a:hover { background: var(--wine); color: var(--white); transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--black); }
 .contact-links a:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--black); }
 .contact-links svg { width: 28px; height: 28px; fill: currentColor; }
 @media (max-width: 420px) {
@@ -234,6 +234,6 @@ section + section { border-top: 3px solid var(--black); }
 /* Content still to be supplied – visible on purpose so nothing invented ships */
 .todo {
   background: repeating-linear-gradient(-45deg, transparent 0 8px, rgba(0,0,0,0.06) 8px 16px);
-  outline: 2px dashed var(--wine); outline-offset: 2px;
+  outline: 2px dashed var(--green); outline-offset: 2px;
 }
-.on-green .todo { outline-color: var(--white); }
+.on-wine .todo { outline-color: var(--white); }
